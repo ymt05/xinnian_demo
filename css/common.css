@@ -1,0 +1,145 @@
+body {
+    background-color: #fff;
+}
+/* 版心 */
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* 头部 */
+.header {
+    height: 110px;
+    background-color: #f16007;
+    line-height: 110px;
+}
+
+
+.logo {
+    float: left;
+}
+
+
+/* 搜索框 */
+
+.search {
+    float: right;
+    line-height: 0;
+}
+
+.first_page {
+    padding: 20px 0 20px 120px;
+}
+
+.search-box {
+    width: 230px;
+    height: 35px;
+    
+    background-color: #fff;
+}
+
+.search-box input {
+    float: left;
+    width: 175px;
+    line-height: 35px;
+    margin-left: 5px;
+    color: #ccc;
+}
+
+.search-logo {
+    float: right;
+    width: 34px;
+    height: 36px;
+    background: url(../img/i_bg.png) 98px 0;
+    cursor: pointer;
+    background-size: cover;
+}
+
+.prompt_box {
+    display: none;
+    position: relative;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #fef2f2;
+    border-radius: 8px;
+    margin-top: 2px;
+    border: 1px solid #ff934c;
+}
+
+.trigonometry {
+    position: absolute;
+    top: -13px;
+    left: 20px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 6px solid #ff934c;
+    border-top: 6px solid transparent;
+}
+
+.trigonometry::after {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -7px;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 5px solid #fef2f2;
+    border-top: 5px solid transparent;
+}
+
+.iconfont {
+    color: #f16007;
+    vertical-align: middle;
+}
+
+/* 导航栏 */
+.nav {
+    height: 55px;
+    background-color: #464646;
+}
+
+.nav li {
+    float: left;
+    width: 120px;
+    line-height: 55px;
+}
+
+.nav li {
+    font-size: 14px;
+    color: #fff;
+}
+
+.nav li:hover {
+    width: 120px;
+    height: 55px;
+    background-color: #7d7d7d;
+}
+
+.highlight_bg {
+    width: 120px;
+    height: 55px;
+    background-color: #7d7d7d;
+}
+
+
+/* 底部 */
+.bottom {
+    /* position: relative; */
+    height: 125px;
+    background-color: #f16007;
+}
+
+.bottom-a {
+    padding-top: 55px;
+}
+
+
+.bottom .content {
+    line-height: 20px;
+}
+

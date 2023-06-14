@@ -1,0 +1,139 @@
+
+/* banner轮播图 */
+.carousel_chart {
+    position: relative;
+}
+
+.picture_toggle {
+    position: relative;
+    width: 1000px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.picture_toggle ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+
+.picture_toggle li {
+    float: left;
+}
+.carousel_chart .picture_toggle img{
+    width: 1000px;
+    height: 400px;
+    background-size: cover;
+}
+
+.dot {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+}
+
+.dot li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    box-shadow: 2px 0 3px black;
+    border-radius: 50%;
+    margin: 0 5px 0 5px;
+}
+
+.banner {
+    margin-bottom: 50px;
+}
+
+.banner .dot .orange_dot {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+/* 企业简介，新闻公告 */
+.company_profile {
+    height: 180px;
+    margin-bottom: 60px;
+}
+
+.left_box {
+    float: left;
+    width: 571px;
+    height: 180px;
+}
+
+.right_box {
+    float: right;
+    width: 370px;
+    height: 180px;
+}
+
+.left_box .title,
+.right_box .title,
+.new_arrivals .title {
+    height: 30px;
+    line-height: 30px;
+    background-color: #efefef;
+    margin-bottom: 10px;
+}
+
+.left_box .title span,
+.right_box .title span,
+.main_content .title span{
+    float: left;
+    color: #f16007;
+    font-size: 14px;
+}
+
+.left_box .title a,
+.right_box .title a,
+.main_content .title a {
+    float: right;
+    margin-right: 5px;
+}
+
+.left_box .content {
+    text-align: left;
+    line-height: 25px;
+}
+
+.left_box .content img{
+    float: left;
+    margin-right: 10px;
+}
+
+.right_box .content li {
+    list-style-type: circle;
+    margin: 0 0 10px 15px;
+}
+
+.right_box .content li p {
+    float: left;
+    display: inline-block;
+    
+}
+
+.right_box .content .publish_date {
+    float: right;
+}
+
+.main_content {
+    height: 235px;
+    margin-bottom: 30px;
+}
+
+.main_content .content li {
+    float: left;
+    margin-left: 100px;
+}
+
+.main_content .content img {
+    width: 125px;
+    height: 145px;
+    margin-bottom: 10px;
+}
+

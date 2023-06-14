@@ -1,0 +1,75 @@
+.banner {
+    height: 1145px;
+    margin-top: 30px;
+}
+
+.product_introduce {
+    float: left;
+    width: 320px;
+    height: 380px;
+}
+
+.product_introduce .title {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.product_introduce .title h2 {
+    color: #f16007;
+    font-weight: 400;
+}
+
+.product_introduce .product li {
+    width: 300px;
+    height: 45px;
+    margin:5px 0 5px 0;
+    line-height: 45px;
+    border: 1px solid #ccc;
+    padding: 0 6px 0 10px;
+    background-color: #f8f8f8;
+}
+
+.product_introduce .product li .left {
+    float: left;
+    font-size: 14px;
+}
+
+.product_introduce .product li .right {
+    float: right;
+}
+
+
+.company_profile {
+    float: right;
+    width: 670px;
+    height: 1145px;
+}
+
+.company_profile .title {
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.company_profile .title h2,
+.company_profile .title p{
+    float: left;
+    display: inline-block;
+    font-weight: 400;
+}
+
+.company_profile .title .right {
+    float: right;
+}
+
+.company_profile .content img {
+    width: 670px;
+    height: 200px;
+}
+
+.company_profile .introduce p{
+    text-align: left;
+    text-indent: 2em;
+    margin: 10px 0 10px 0;
+}
